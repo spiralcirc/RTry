@@ -20,6 +20,7 @@ v <- seq(10)
 v <- c(v[1:5], 999, v[6:length(v)])
 v
 
+
 # Creating vector for performance
 v <- vector(length = 10)
 v[5]=655
@@ -91,3 +92,11 @@ rm(list=ls())
 
 # current  working dir
 getwd()
+
+
+
+###################################################################
+#dplyr
+install.packages("dplyr")
+library("dplyr")
+library("hflights")
