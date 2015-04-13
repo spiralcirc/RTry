@@ -19,3 +19,4 @@ Load ggvis package
 ```{r}
 library("ggvis")
 ```
+
